@@ -46,7 +46,7 @@ Analysing the encrypted strings table, how many total encrypted string entries d
 * By counting the number of the pointers on the structure , we are lead to the answer ( ***7*** )
 #### Question 6:
 The first encrypted byte of the backdoor password. What is this encrypted byte value?
-* By visiting the highlighted offset ![](/assets/img/malops-silent-authenticator/index0.png]] we are led to ![[index0-encrypted.png) giving us the answer to the question, ***6D***.
+* By visiting the highlighted offset ![](/assets/img/malops-silent-authenticator/index0.png]] we are led to ![](/assets/img/malops-silent-authenticator/index0-encrypted.png) giving us the answer to the question, ***6D***.
 #### Question 7:
 what is the hardcoded master password that bypasses authentication for any user?
 * Using python , we can create the following one-liner that does the Rolling XOR to decrypt the string
