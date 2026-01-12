@@ -1,12 +1,9 @@
-
----
 ---
 title: "Malops - Silent Authenticator Writeup"
 date: 2026-01-12
 categories: [malware,reversing,writeups]
 tags: [linux,backdoor,malops]
 ---
-
 
 # Malops - Silent Authenticator Writeup
 
