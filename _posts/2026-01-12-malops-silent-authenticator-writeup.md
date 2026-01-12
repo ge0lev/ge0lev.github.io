@@ -9,10 +9,7 @@ tags: [linux,backdoor,malops]
 Challenge URL: https://malops.io/challenges/silent-authenticator
 
 #### Malops Tags : 
----
-linux
-backdoor
----
+linux | backdoor 
 
 #### Scenario:
 
