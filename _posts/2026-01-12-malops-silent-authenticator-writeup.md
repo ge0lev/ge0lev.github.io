@@ -5,13 +5,14 @@ categories: [malware,reversing,writeups]
 tags: [linux,backdoor,malops]
 ---
 
-# Malops - Silent Authenticator Writeup
 
-https://malops.io/challenges/silent-authenticator
+Challenge URL: https://malops.io/challenges/silent-authenticator
 
 #### Malops Tags : 
--linux
--backdoor
+---
+linux
+backdoor
+---
 
 #### Scenario:
 
