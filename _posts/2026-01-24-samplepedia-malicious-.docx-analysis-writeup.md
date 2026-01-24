@@ -10,14 +10,14 @@ tags:
   - msoffice
 ---
 #### Intro
-This is an easy-tagged challenge on (https://samplepedia.cc/)[samplepedia] , focusing on analysing a malicious .docx file and identifying from where the next stage of the infection is loaded. Even though it is an easy challenge, it can still be considered interesting since it "breaks the norm" by not containing any malicious macros - as most similar initial infections utilizing MS Office tools do. 
+This is an easy-tagged challenge on [samplepedia](https://samplepedia.cc) , focusing on analysing a malicious .docx file and identifying from where the next stage of the infection is loaded. Even though it is an easy challenge, it can still be considered interesting since it "breaks the norm" by not containing any malicious macros - as most similar initial infections utilizing MS Office tools do. 
 
-Challenge URL: [https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c1]
+Challenge URL: <https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c1>
 #### Goal
 Where does this file load the next stage from?
 
 #### Analysis
-Checking the file with oleid from (https://github.com/decalage2/oletools)[oletools] shows that there are no embedded macros.
+Checking the file with oleid from [oletools](https://github.com/decalage2/oletools) shows that there are no embedded macros.
 ```
 Indicator id=ftype name="File format" | value='MS Word 2007+ Document (.docx)'
 description:
@@ -115,5 +115,5 @@ which appears to contain the next stage of the infection. This also aligns with 
 Unfortunately, this is our best guess for the next stage, since the aforementioned URL appears to be down.
 
 #### Helpful Resources
-* [https://www.deepinstinct.com/blog/no-macro-no-worries-vsto-being-weaponized-by-threat-actors]
-* [https://blog.nviso.eu/2022/04/29/analyzing-vsto-office-files/]
+* <https://www.deepinstinct.com/blog/no-macro-no-worries-vsto-being-weaponized-by-threat-actors>
+* <https://blog.nviso.eu/2022/04/29/analyzing-vsto-office-files/>
