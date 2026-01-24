@@ -9,11 +9,10 @@ tags:
   - samplepedia
   - msoffice
 ---
-### Samplepedia - Malicious .docx Analysis Writeup
 #### Intro
 This is an easy-tagged challenge on samplepedia.cc , focusing on analysing a malicious .docx file and identifying from where the next stage of the infection is loaded. Even though it is an easy challenge, it can still be considered interesting since it "breaks the norm" by not containing any malicious macros - as most similar initial infections utilizing MS Office tools do. 
 
-Challenge URL: https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c1
+Challenge URL: [https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c1]
 #### Goal
 Where does this file load the next stage from?
 
@@ -116,5 +115,5 @@ which appears to contain the next stage of the infection. This also aligns with 
 Unfortunately, this is our best guess for the next stage, since the aforementioned URL appears to be down.
 
 #### Helpful Resources
-* https://www.deepinstinct.com/blog/no-macro-no-worries-vsto-being-weaponized-by-threat-actors
-* https://blog.nviso.eu/2022/04/29/analyzing-vsto-office-files/
+* [https://www.deepinstinct.com/blog/no-macro-no-worries-vsto-being-weaponized-by-threat-actors]
+* [https://blog.nviso.eu/2022/04/29/analyzing-vsto-office-files/]
