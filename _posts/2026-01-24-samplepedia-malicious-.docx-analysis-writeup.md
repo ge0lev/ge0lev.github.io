@@ -12,7 +12,7 @@ tags:
 #### Intro
 This is an easy-tagged challenge on [samplepedia](https://samplepedia.cc) , focusing on analysing a malicious .docx file and identifying from where the next stage of the infection is loaded. Even though it is an easy challenge, it can still be considered interesting since it "breaks the norm" by not containing any malicious macros - as most similar initial infections utilizing MS Office tools do. 
 
-Challenge URL: <https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c1>
+Challenge URL: <https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c183d9/77/>
 #### Goal
 Where does this file load the next stage from?
 
