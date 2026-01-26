@@ -1,6 +1,6 @@
 ---
 title: Samplepedia - Malicious .docx Utilizing Remote Templates Analysis Writeup
-date: 2025-1-25
+date: 2026-1-25
 categories:
   - malware
   - reversing
