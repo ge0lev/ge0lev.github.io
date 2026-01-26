@@ -10,7 +10,7 @@ tags:
   - msoffice
 ---
 #### Intro
-This is an easy-tagged challenge on [samplepedia](https://samplepedia.cc). Similar to the [VSTO challenge](<https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c183d9/77/>), this particular sample is interesting as well because it does not utilize an embedded macro but uses a novel technique - Remote Template Injection - which exploits the ability to use a custom template on MS Office in order to load a malicious template, either remotely or locally. This can make the initial MS Office file appear "clean" and possibly evade antivirus or mail protection solution.
+This is an easy-tagged challenge on [samplepedia](https://samplepedia.cc). Similar to the VSTO challenge ([challenge link](<https://samplepedia.cc/sample/56f5623daa470bee190ae0ecd961be8e6df71c8da1ccf7b268fe876b84c183d9/77/>) and [writeup](https://ge0lev.github.io/posts/samplepedia-malicious-.docx-analysis-writeup/)), this particular sample is interesting as well because it does not utilize an embedded macro but uses a novel technique - Remote Template Injection - which exploits the ability to use a custom template on MS Office in order to load a malicious template, either remotely or locally. This can make the initial MS Office file appear "clean" and possibly evade antivirus or mail protection solution.
 
 Challenge URL: <https://samplepedia.cc/sample/29325e23a684f782db14a1bf0dc56c65228e666d1f561808413a735000de3515/76/>
 
@@ -46,7 +46,7 @@ Based on the above, we see that the file does not contain any macros but does co
 
 At this point, if we follow the suggestion of oleid and use *oleobj* we pretty much get our answer. Still, we'll try to find the next stage in a more manual manner.
 
-By extracting the file as an archive with 7zip, we get the following directory:
+By extracting the file as an archive with 7zip, we get the following directory structure:
 ```
 29325e23a684f782db14a1bf0dc56c65228e666d1f561808413a735000de3515~:.
 │   [Content_Types].xml
@@ -126,5 +126,5 @@ Note that every instance of suspicious URLs have been defanged.
 Unfortunately, it appears the the URL is no longer up so further analysis of the next stage  is not possible...
 
 #### Helpful Resources
-* <https://www.cyfirma.com/research/living-off-the-land-the-mechanics-of-remote-template-injection-attack/
+* <https://www.cyfirma.com/research/living-off-the-land-the-mechanics-of-remote-template-injection-attack/>
 * <https://tho-le.medium.com/remote-ms-office-template-injection-ffbe0d81512d> 
