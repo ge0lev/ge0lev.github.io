@@ -15,4 +15,4 @@ This blog is a mix of: personal notes and things I find interesting. These inclu
 * Malware/crackmes writeups
 * Whatever else happens to pique my interest...
 
-You can find me on [Twitter/X](https://x.com/ge0lev) and [Discord]([239787992368021504](https://discord.com/users/239787992368021504)).
+You can find me on [Twitter/X](https://x.com/ge0lev) and [Discord](https://discord.com/users/239787992368021504).
