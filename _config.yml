@@ -16,7 +16,7 @@ timezone:
 
 title: ge0lev's blog # the main title
 
-tagline: Personal blog containing containing things I find interesting (mostly Malware Analysis/Reverse Engineering, Threat Hunting and Detection Engineering) # it will display as the subtitle
+tagline: Personal blog containing things I find interesting (mostly Malware Analysis/Reverse Engineering, Threat Hunting and Detection Engineering) # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
