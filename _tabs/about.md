@@ -6,7 +6,7 @@ order: 4
 
 Hey there 👋,
 
-I'm George (ge0lev) - welcome to my personal blog! I'm a Threat Hunter at an MSSP,Climbed the SOC ladder from L1 to L2 to Threat Hunting. I have always been interested in malicious software, how to analyse it, figure out what it does, why it does it and finally how to detect it.
+I'm George (ge0lev) - welcome to my personal blog! I'm a Threat Hunter at an MSSP,Climbed the SOC ladder from L1 to L2 to Threat Hunting. I’ve always been interested in malicious software - poking at it, figuring out what it does and why, and finally how to hunt for and detect it.
 
 This blog is a mix of: personal notes and things I find interesting. These include: 
 * (possibly half-baked) Malware analysis and Reversing 
